@@ -40,7 +40,7 @@
 
 =end
 # 2. Initial Solution
-	puts "hello world"
+	#puts "hello world"
 	var1 =  [1, 2, 3, 4, 5, 5, 7] 
 	
 	def total(var1)
@@ -64,11 +64,35 @@
 		puts total
 		return total
 	end
-	sentence_maker(sentence2)
+	#sentence_maker(sentence2)
 
 
 # 3. Refactored Solution
 
+#refactoring was done to make variables more clear.  Code is D.R.Y. already
+	def total(array)
+		total = 0
+		for x in array
+			total += x
+		end
+		return total
+	end
 
+	def sentence_maker(arrayOfWords)
+		sentence = ''
+		sentence = arrayOfWords[0].capitalize + ' '
+		for i in 1..(arrayOfWords.length-2)
+			sentence += arrayOfWords[i].to_s + ' '
+		end
+		sentence += arrayOfWords[arrayOfWords.length-1].to_s+'.'
+		puts sentence
+		return sentence
+	end
+sentence_maker(sentence2)
 
-# 4. Reflection 
+# # 4. Reflection 
+# This challenge was fairly easy but reminded me of a few key things when dealing with strings in ruby.
+# First, to_s method must be used to concatinate numbers and strings together.  Also I was reminded of the
+# capitalize method we learned in week 1.  I used my current knowledge of array indexing and looping to
+# successfully create the sentence.  This did require testing my code both early and often, I had to make 
+# slight tweeks to the indexing to get the sentence just right.
