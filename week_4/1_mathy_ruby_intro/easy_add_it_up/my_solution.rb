@@ -85,7 +85,7 @@
 			sentence += arrayOfWords[i].to_s + ' '
 		end
 		sentence += arrayOfWords[arrayOfWords.length-1].to_s+'.'
-		puts sentence
+		#puts sentence
 		return sentence
 	end
 sentence_maker(sentence2)
