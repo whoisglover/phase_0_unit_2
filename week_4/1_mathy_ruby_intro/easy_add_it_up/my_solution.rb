@@ -95,4 +95,4 @@ sentence_maker(sentence2)
 # First, to_s method must be used to concatinate numbers and strings together.  Also I was reminded of the
 # capitalize method we learned in week 1.  I used my current knowledge of array indexing and looping to
 # successfully create the sentence.  This did require testing my code both early and often, I had to make 
-# slight tweeks to the indexing to get the sentence just right.
+# slight tweeks to the indexing and used puts to get the sentence just right.
