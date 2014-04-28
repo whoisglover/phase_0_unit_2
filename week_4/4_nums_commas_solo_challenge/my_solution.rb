@@ -137,4 +137,6 @@ How confident are you with each of the Learning Competencies?
 Which parts of the challenge did you enjoy?
 	- I enjoyed the logic being a little bit tougher than previous challenges.
 Which parts of the challenge did you find tedious?
-	- The repetition of creating each case as the number grew by one place was slightly tedious.  This may have been avoided by finding a better way to tackle the solution or by using regular expressions. 
+	- The repetition of creating each case as the number grew by one place was slightly tedious.  This may have been avoided by finding a better way to tackle the solution or by using regular expressions.
+=end
+	
