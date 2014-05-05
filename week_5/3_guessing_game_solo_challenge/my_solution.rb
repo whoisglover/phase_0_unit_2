@@ -103,3 +103,21 @@ p new_game.guess(4)
 
 
 # 5. Reflection 
+
+What parts of your strategy worked? What problems did you face?
+  - Following my Pseudocode worked very well. Adding error checking for an integer also worked well.
+What questions did you have while coding? What resources did you find to help you answer them?
+  - I was a little confused about returning a string vs a symbol but a little print testing cleared things up.
+What concepts are you having trouble with, or did you just figure something out? If so, what?
+  - I am not having trouble with any of the concepts thus far.  This seemed like a straight forward challenge and program and I enjoyed creating it.
+Did you learn any new skills or tricks?
+  - I didn't learn any new skills or tricks but I felt good using what I have learned so far.
+How confident are you with each of the Learning Competencies?
+  - I feel very confident with each of the Learning Competencies thus far.
+Which parts of the challenge did you enjoy?
+  - I enjoyed this chalenge in general.  I had a clear idea of how I wanted to implement it and I expressed that in Pseudocode
+    and was able to effectively turn that into real code.
+Which parts of the challenge did you find tedious?
+  - I didnt find any of this challenge tedious.
+
+
