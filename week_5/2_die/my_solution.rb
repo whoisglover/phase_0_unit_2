@@ -65,3 +65,19 @@ puts my_die.roll
 
 
 # 5. Reflection 
+=begin
+What parts of your strategy worked? What problems did you face?
+	- Using .size worked well for returning the sides and using the indexing of the input also worked well
+What questions did you have while coding? What resources did you find to help you answer them?
+	- No questions while coding this, just used strategy of printing often to make sure things are working how I thought they should
+What concepts are you having trouble with, or did you just figure something out? If so, what?
+	- The only thing that gave me trouble was roll not starting at 1 since it is an index once I figured that out I was good to go
+Did you learn any new skills or tricks?
+	- No new skills or tricks this time
+How confident are you with each of the Learning Competencies?
+	- I feel very confident with the Learning Competencies so far. I enjoy working with classes in Ruby
+Which parts of the challenge did you enjoy?
+	- I enjoyed figuring out how to implement the roll feature using the index provided by random
+Which parts of the challenge did you find tedious?
+	- I didn't find any parts of this challenge tedious
+=end
