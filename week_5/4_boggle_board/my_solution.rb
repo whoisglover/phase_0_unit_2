@@ -108,7 +108,7 @@ end
 Boggle.new(1).get_column ==  ["r", "o", "c", "a"] 
 
 # Reflection 
-
+=begin
 What parts of your strategy worked? What problems did you face?
     - Amol and I were a little confused as to how to pass the boggle board in to the class/where the boggle board should live
     eventually we just decided to hard code it into the initialize
@@ -124,3 +124,5 @@ Which parts of the challenge did you enjoy?
     - I enjoyed the boggle board being like a 2 dimensional matrix it refreshed my memory from earlier algorithm classes
 Which parts of the challenge did you find tedious?
     - I didn't find any part of this challenge tedious 
+
+=end
