@@ -57,3 +57,6 @@ puts my_die.sides == 6
 puts my_die.roll
 
 # 5. Reflection 
+
+# I found this challenge very easy and did not have to do any research.  It was straight forward to use the initialize method and instance variables.
+# No problems while doing this challenge.  Looking forward to getting into more complex Class challenges.
