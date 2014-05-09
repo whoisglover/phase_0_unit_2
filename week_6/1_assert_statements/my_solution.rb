@@ -14,7 +14,7 @@ assert { name == "bettysue" }
 assert { name == "billybob" }
 
 # 2. Pseudocode what happens when the code above runs
-
+#
 
 
 # 3. Copy your selected challenge here
