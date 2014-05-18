@@ -1,0 +1,15 @@
+Enumerable#group_by
+
+Group_by is a built in Ruby method that is used to break a collection into groups.  These groups are determined by criteria specified by the coder when calling group_by.  A simple example is taking an array of names and grouping it by the length of each name.  After calling group_by and specifing that the criteria is name length you would have returned different groups of name lengths containing the names that fit inside that length.  What is actually returned is a hash, the key of the hash being the group name or value that corresponds to the group (i.e. 4 would be the group with names with length 4) and the value of the hash is an array that contains the elements inside that group (i.e. all the names with length 4).  Below is a code example of grouping names by length.
+
+names = %w(Danny Bob Tyler Dog Lincoln Amanda)
+names.group_by{|x| x.length}
+
+insert group_by_names.png
+
+If group_by is called on an array it automagically iterates through the entire array and places each element in the correct group depending on the criteria specified in the call.
+
+Group_by is really interesting if you get creative with the block of code that determines your groupings.  Below is an example from the Ruby Doc's that shows how to group integers depending on their modulus with another number (in this example mod 3).
+
+insert group_by_numbers.png
+
