@@ -69,7 +69,7 @@ class CreditCard
 	 			 newnum[num] = newnum[num] *2
 	 		end
 	 	end
-      #hello?
+      
       
       # This is a overly complex way of solving the problem.  It doesn't give any more power and it is less readable 
       # My way will have a few extra lines of code but I believe that trade off is worth it to improve readability.
@@ -136,8 +136,9 @@ check_card_assertion {test.check_card}
  test.check_card
 
 
-
+#
 # Reflection 
+=begin
 What parts of your strategy worked? What problems did you face?
 I think I grabbed a very early implementation from Scott's solution because most of it wasn't working at all.  This led me to the 
 problem of rewriting large parts of the code instead of just cleaning it up.
@@ -154,3 +155,4 @@ Which parts of the challenge did you enjoy?
 I'm starting to very much enjoy the testing section of these challenges.  It feels good to fail tests, work on the code, and then get the test to pass.
 Which parts of the challenge did you find tedious?
 I didn't find anything here too tedious. 
+=end
