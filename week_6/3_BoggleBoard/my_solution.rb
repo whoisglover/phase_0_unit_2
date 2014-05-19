@@ -109,7 +109,7 @@ boggle_board = BoggleBoard.new(dice_grid)
 # 1. DRIVER TESTS GO BELOW THIS LINE
 # create driver test code to retrieve a value at a coordinate here:
 # implement tests for each of the methods here:
-
+#
 boggle_board.get_column(0) 
 boggle_board.get_column(1) 
 boggle_board.get_column(2) 
@@ -125,6 +125,7 @@ p boggle_board.get_letter([3,2]) == 'k'
 
 
 # 5. Reflection 
+=begin
 You just made a transition from procedural programming to object-oriented programming! 
 How is the implementation different? What are the benefits to using the Object Oriented approach 
 (even if it is a bit more code?)
@@ -138,3 +139,4 @@ is the conecpt of inheretiance vs encapsulation (or more simply the 'is a' vs 'h
 code by creating base objects and then customizing them with inherant objects. I have some experience in Java and I am feeling
 good about OOP in Ruby so far.  I have had a few questions while working on the class methods specifically the get_letter but 
 ruby-docs and my work from last week helped clear things up.
+=end
