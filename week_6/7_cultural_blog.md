@@ -27,6 +27,11 @@ In your post, describe your experiences with stereotype threat and how it affect
 
 Go into as much depth feels comfortable for you. 
 
+##Text for this blog:
+
+As a college aged white male I honestly haven't had a lot of experience with the concept of Stereotype Threat.  I have taken quite a bit of upper level math courses and I suppose I may have felt that my asian classmates were outperforming me.  I don't remember feeling very strongly about this and I can't say with certainty if it affected my performance.  Since I am in a position to not be as at risk with stereotype threatening as others, I would like to become good at disrupting it.  By this I mean I want anyone I work with to feel confident in their abilities and not feel any judgement from me due to stereotypes, or due to anything for that matter.  I plan on accomplishing this by continually improving my mindfulness and actively remind myself to be open and accepting to anyone.  I also plan on dishing out plenty of compliments to coworkers that are performing well, my nightmare would be to be the guy that gets jealous when my peers are succeeding.
+
+
 
 ## Release 3: Submit
 Link to your blog on the index of your github.io site and push your changes. 
