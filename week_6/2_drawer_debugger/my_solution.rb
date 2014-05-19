@@ -114,6 +114,7 @@ fork2 = silverware_drawer.remove_item(fork2)
 p fork2.type == "fork2"
 
 # 5. Reflection 
+=begin
 * What parts of your strategy worked? What problems did you face?    
 Alec and I took quite a bit of time to go line by line to understand what the original code was doing.  This really helped the rest of the challenge move smoothly.
 We were using the website repl to run our code as we worked and it was a bit buggy which originally made us think we were doing some things wrong when in fact we had them correct.
@@ -131,3 +132,4 @@ I feel very confident with each of the learning Competencies.
 I enjoyed working with Alec he was really nice and I think we are very similar in our personalities as well as coding style.
 * Which parts of the challenge did you find tedious?
 Testing the code became slightly tedious due to the problems we were having with the coding website we were using not working properly.
+=end
