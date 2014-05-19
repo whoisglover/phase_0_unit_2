@@ -11,6 +11,63 @@
 Using the goals below, choose a challenge solution from [Class Warfare, Validate a Credit Card Number](../../week_5/6_validate_credit_card). This can be anyone's solution, but if you notice there's a lot of room for improvement with your own code, start with that. Find other's solutions by browsing the branches (just like you would to comment on a random person's solution).
 
 Paste the original unrefactored code in your gist, and as you refactor, make notes of the changes you are making to achieve optimal readability. Include those notes along with the refactored version in your [my_solution.rb](my_solution.rb) file.
+Original Solution:
+#   class Integer
+#     def digits
+#       Enumerator.new do |x|
+#         to_s.chars.map{|c| x << c.to_i }
+#       end
+#     end
+#   end
+
+# class CreditCard
+
+#   attr_accessor :credit_card_number, :original
+#     def initialize (credit_card_number)
+#         @original = []
+#         @credit_card_number = credit_card_number.to_s
+#         @credit_card_number.map {|num| @original << num }
+#         :original
+#     end
+#   end
+
+
+#          = @credit_card_number.to_s
+#         @credit_card_number.split(//)   
+   
+#         unless @credit_card_number != 16 raise ArgumentError.new("The credit card number must be 16 digits") 
+
+#         else
+#         @unmodified = []
+#         @modfied = []
+#         @modified_final = []
+
+#       end 
+#       end
+    
+
+#     def check_card
+#         @credit_card_number.each_with_index do |item, index| 
+#            if index % 2 == 0
+#            item = item * 2
+#            @modfied.push(item)
+#            else
+#            @unmodified.push(item)
+#            end
+
+         
+           
+
+#        @modified_final = @modified.join('').split(//)
+#        @modified_final.map { |string_val| string_val.to_i }
+#     	 @total = (@unmodified.concat(@modified_final).inject(:+)
+
+   
+            
+#         end
+#        end
+#      end
+#    end
 
 #### Goals of Readable Code
 - Eliminate repetition by using looping and branching wisely

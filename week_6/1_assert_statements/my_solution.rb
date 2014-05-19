@@ -1,6 +1,6 @@
 # U2.W6: Testing Assert Statements
 
-# I worked on this challenge [by myself .
+# I worked on this challenge with:
 # person1: Bridgette Salcido
 # person2: Danny Glover 
 
@@ -92,4 +92,21 @@ check_card_assertion {}
 
 
 # 5. Reflection
+* What parts of your strategy worked? What problems did you face?    
+Our strategy was to Pseudocode and then code while testing often.  Testing often and playing with irb as we went along cleared up any questions we had
+as well as letting us know what functionalities are available such as custom names for assert statements.
+* What questions did you have while coding? What resources did you find to help you answer them?  
+We had some questions about creating custom names and messages for assert statements but we cleared them up by simply testing what we thought would work.
+* What concepts are you having trouble with, or did you just figure something out? If so, what?  
+I'm not having trouble with any of the concepts at this point, this challenge seemed fairly straight forward and Bridgette was a great help.
+* Did you learn any new skills or tricks?
+I learned how to create custom error messages for assert statements.  I think error checking in code is extremely important and I'm excited to use my new knowledge
+to develop code with strong error checking.
+* How confident are you with each of the Learning Competencies? 
+I feel very confident with the Learning Competencies.  I am in a bit of a time crunch with finals right now but other than that I feel good about where I'm at with DBC.
+* Which parts of the challenge did you enjoy?
+I enjoyed pairing with Bridgette, she seems very interesting and easy to work with.  I think its going to be really fun to start meeting all my cohort mates
+in person and start pairing in person.
+* Which parts of the challenge did you find tedious?
+I didn't find this challenge tedious at all.
 

@@ -63,7 +63,7 @@ end
 
 # DRIVER TESTS GO BELOW THIS LINE
 
-Row_check.new(0).get_row == ["b","r","a","e"]
+#Row_check.new(0).get_row == ["b","r","a","e"]
 
 # Reflection 
 
@@ -105,7 +105,8 @@ end
 
 
 # DRIVER TESTS GO BELOW THIS LINE
-Boggle.new(1).get_column ==  ["r", "o", "c", "a"] 
+p Boggle.new(1).get_column
+
 
 # Reflection 
 =begin

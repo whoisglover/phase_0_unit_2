@@ -15,13 +15,28 @@
 
 
 # 2. Pseudocode
-
+1. PezDispenser will have an initialize method that takes in the flavors in the dispenser, I want to use a hash 
+to store the amounts of each flavor with the flavor being the key and number remaning being the value.  Initiialize will handle
+filling the hash with 5 of each flavor.
+2. Instance variable of total pez will be held 
+3. See all pez method with display the hash of flavors and amounts
+4. Add method will check if the flavor exists already, if true it will increment the amount by one.  If not it will create a new key value pair
+in the hash with value of one (adding single pez at a time)
 
 
 # 3. Initial Solution
 
 class PezDispenser
- 
+ 	
+ @total = 0 
+ @pez_hash
+def initialize(flavors)
+	#flavors.each do |flavor|
+	#	push flavor and value 5 to hash
+	#	total +=5
+	#end
+	puts "A new pez dispenser has been created. You have #{@total} pez!"  
+end 
 # your code here!
  
 end

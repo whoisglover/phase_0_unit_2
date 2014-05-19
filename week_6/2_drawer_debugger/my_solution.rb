@@ -114,3 +114,20 @@ fork2 = silverware_drawer.remove_item(fork2)
 p fork2.type == "fork2"
 
 # 5. Reflection 
+* What parts of your strategy worked? What problems did you face?    
+Alec and I took quite a bit of time to go line by line to understand what the original code was doing.  This really helped the rest of the challenge move smoothly.
+We were using the website repl to run our code as we worked and it was a bit buggy which originally made us think we were doing some things wrong when in fact we had them correct.
+* What questions did you have while coding? What resources did you find to help you answer them?  
+Alec and I were a little confused by the ambiguity of the assignment and not sure what some of the goals were, for instance we didnt know what the remove method should do if no items were passed to it.  
+    Eventually we just used our best judgement on things like this.  
+* What concepts are you having trouble with, or did you just figure something out? If so, what?  
+I just figured out the attr_reader vs attr_accessor methodology and I have a good idea of what each do, I think of it as being similar
+    to file permissions (read/write).
+* Did you learn any new skills or tricks?
+I didnt learn any new skills or tricks but I was able to teach Alec about setting a method's parameters to null in the declaration to let it accept no arguments.
+* How confident are you with each of the Learning Competencies? 
+I feel very confident with each of the learning Competencies.
+* Which parts of the challenge did you enjoy?
+I enjoyed working with Alec he was really nice and I think we are very similar in our personalities as well as coding style.
+* Which parts of the challenge did you find tedious?
+Testing the code became slightly tedious due to the problems we were having with the coding website we were using not working properly.
