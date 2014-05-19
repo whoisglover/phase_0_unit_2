@@ -92,6 +92,7 @@ check_card_assertion {}
 
 
 # 5. Reflection
+=begin
 * What parts of your strategy worked? What problems did you face?    
 Our strategy was to Pseudocode and then code while testing often.  Testing often and playing with irb as we went along cleared up any questions we had
 as well as letting us know what functionalities are available such as custom names for assert statements.
@@ -110,3 +111,4 @@ in person and start pairing in person.
 * Which parts of the challenge did you find tedious?
 I didn't find this challenge tedious at all.
 
+=end
