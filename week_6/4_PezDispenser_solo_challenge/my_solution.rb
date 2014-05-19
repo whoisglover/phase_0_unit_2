@@ -161,7 +161,7 @@ end
 check_take_assertion{super_mario.take_pez('cola')}
 check_total_assertion{super_mario.pez_count}
 
-
+#
 # puts "Here's a look inside the dispenser:"  
 # puts super_mario.see_all_pez 
 # puts "Adding a purple pez."
@@ -175,6 +175,7 @@ check_total_assertion{super_mario.pez_count}
 
 
 # 5. Reflection 
+=begin
 What parts of your strategy worked? What problems did you face?
 -A hash seemed to be a good data structure to use since I can save the flavor along with the amount in a key value pair.
 -My Pseudocode made it easy to remember what each functionality needed to do once I started coding.  The user stories helped with this as well.
@@ -189,3 +190,4 @@ Which parts of the challenge did you enjoy?
 -I enjoyed coming up with the logic for my methods, it was challenging but rewarding once I figured it out.
 Which parts of the challenge did you find tedious?
 - I found the assert methods a bit tedious and slightly unnecessary. 
+=end
