@@ -43,12 +43,15 @@ Pull is a combination of fetch followed by merge.  This gets any new data from t
 <!-- Your defnition here -->
 
 #### push
+Once you have commited your changes and are happy with the effects you use 'push' to apply those changes to the remote repository and make them more permanent  (nothing is totally permanent because commits can always be rolled back).
 <!-- Your defnition here -->
 
 #### reset
+Reset is used to roll back changes that you want to undo.  This works by moving the 'head' pointer back to a previous commit. The actual line of code is git reset HEAD. This will move you back one commit as if you had never done git add or git commit.
 <!-- Your defnition here -->
 
 #### rm
+Rm is short for remove.  This is basically the opposite of git add.  This removes a file from being tracked and any changes to it will no longer be staged for the next commit. 
 <!-- Your defnition here -->
 
 #### status
@@ -61,3 +64,5 @@ Pull is a combination of fetch followed by merge.  This gets any new data from t
 - Commit locally
 
 ## Release 5: Reflection
+
+I accidently deleted the 0_git_started by syncing with the Devbootcamp version that was after my cohort's final version was established.  I understand the concepts above very well and until now have been having great success with git and github so far.  One thing I do not feel comfortable with is rolling back commits so I plan using office hours this week to learn how to do that and hopefully fix the issues I created by syncing to a version that is too modern.  I also believe this syncing issue is affecting my ability to post this weeks blogs.
