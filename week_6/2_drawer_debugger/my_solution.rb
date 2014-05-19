@@ -96,7 +96,7 @@ silverware_drawer.dump
 silverware_drawer.add_item(Silverware.new("fork"))
 
 silverware_drawer.view_contents #What should this return?
-
+#
 
 fork = silverware_drawer.remove_item(fork) #add some puts statements to help you trace through the code...
 
